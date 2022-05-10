@@ -1,0 +1,149 @@
+{
+  "new": [
+    {
+      "id": "044b9246-7b86-45fe-af36-0db6e12fd5bf",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de caminha para cachorros",
+        "source": "images/caminha1.png"
+      },
+      "price": 39.9,
+      "listPrice": 39.9,
+      "installments": 1
+    },
+
+    {
+      "id": "fb4e9ec2-0a92-4ebe-b7f3-4643041e9aa5",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de caminha para cachorros",
+        "source": "images/caminha2.png"
+      },
+      "price": 69.9,
+      "listPrice": 99.9,
+      "installments": 6
+    },
+
+    {
+      "id": "f7a1ebe5-ce44-4b1b-bc49-2208992f0c7f",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de brinquedo de girafa para cachorros",
+        "source": "images/toy1.png"
+      },
+      "price": 39.9,
+      "listPrice": 39.9,
+      "installments": 1
+    },
+
+    {
+      "id": "1e522175-0b13-40cc-9bc7-1c17febc183e",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de banheira para cachorros",
+        "source": "images/bathtub.png"
+      },
+      "price": 52.9,
+      "listPrice": 63.9,
+      "installments": 9
+    }
+  ],
+
+  "highlights": [
+    {
+      "id": "7519c2a3-69c4-4e24-bd10-85f6dac36f1e",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de caminha para cachorros",
+        "source": "images/caminha1.png"
+      },
+      "price": 39.9,
+      "listPrice": 39.9,
+      "installments": 1
+    },
+
+    {
+      "id": "0fe8e6d2-b70d-42a1-b576-695175be0ae5",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de caminha para cachorros",
+        "source": "images/caminha2.png"
+      },
+      "price": 69.9,
+      "listPrice": 99.9,
+      "installments": 6
+    },
+
+    {
+      "id": "f50289d8-fac7-48d0-9e72-34cfd6f42ecc",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de brinquedo de girafa para cachorros",
+        "source": "images/toy1.png"
+      },
+      "price": 39.9,
+      "listPrice": 39.9,
+      "installments": 1
+    },
+
+    {
+      "id": "1db1c808-0b1a-48e3-9287-6323f1d90dad",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de banheira para cachorros",
+        "source": "images/bathtub.png"
+      },
+      "price": 52.9,
+      "listPrice": 63.9,
+      "installments": 9
+    },
+
+    {
+      "id": "b1781b23-688c-406e-a48d-79fbf1ba783b",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de caminha para cachorros",
+        "source": "images/caminha1.png"
+      },
+      "price": 39.9,
+      "listPrice": 39.9,
+      "installments": 1
+    },
+
+    {
+      "id": "ab147d59-5b3e-4cfc-92cf-1b1190b83c14",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de caminha para cachorros",
+        "source": "images/caminha2.png"
+      },
+      "price": 69.9,
+      "listPrice": 99.9,
+      "installments": 6
+    },
+
+    {
+      "id": "954b0ab3-4166-4a0c-bb83-c35a6986cf78",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de brinquedo de girafa para cachorros",
+        "source": "images/toy1.png"
+      },
+      "price": 39.9,
+      "listPrice": 39.9,
+      "installments": 1
+    },
+
+    {
+      "id": "b72a9d6a-0d1f-4668-82f7-0959a438c1cf",
+      "title": "Lorem ipsum dolor summit",
+      "image": {
+        "text": "Imagem de banheira para cachorros",
+        "source": "images/bathtub.png"
+      },
+      "price": 52.9,
+      "listPrice": 63.9,
+      "installments": 9
+    }
+  ]
+}
