@@ -3,9 +3,10 @@ import { FloatingIcons } from "components/floating-icons";
 import { Header } from "components/header";
 import { Shelf } from "components/shelf";
 import { Carousel } from "components/slider";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import productJson from "lib/products.json";
 import { CategoryMosaic } from "components/category-mosaic";
+import { Newsletter } from "components/newsletter";
 
 const Home = () => {
   const [floatActive, setFloatActive] = useState(false);
@@ -31,6 +32,8 @@ const Home = () => {
       <CategoryMosaic />
 
       <Shelf shelfTitle="Destaques" products={productJson.highlights} />
+
+      <Newsletter />
 
       {floatActive ? <FloatingIcons /> : <></>}
     </div>

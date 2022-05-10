@@ -11,7 +11,7 @@ const FloatingIcons = () => {
           document.documentElement.scrollTop = 0;
         }}
       >
-        <FaArrowCircleUp size={36} fill="#7F7F7F" />
+        <FaArrowCircleUp size={36} fill="#7F7F7F" path="#ffffff" />
       </BackToTop>
 
       <WhatsappBtn type="button">
