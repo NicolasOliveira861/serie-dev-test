@@ -10,6 +10,7 @@ import {
 import logo from "assets/logo.png";
 import cart from "assets/cart.png";
 import user from "assets/user.png";
+import menu from "assets/menu.png";
 
 import { AiOutlineSearch } from "react-icons/ai";
 import { Menu } from "components/menu";
@@ -19,6 +20,7 @@ const Header = () => {
     <>
       <Container>
         <SearchContainer>
+          <img className="menu" src={menu} alt="Ícone do menu" />
           <input type="text" placeholder="Pesquisar..." />
           <span>
             <AiOutlineSearch size={24} />

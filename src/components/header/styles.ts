@@ -23,11 +23,32 @@ export const Container = styled.div`
 export const SearchContainer = styled.div`
   height: 45px;
 
+  @media screen and (max-width: 520px) {
+    display: flex;
+    column-gap: 0.625rem;
+  }
+
+  .menu {
+    cursor: pointer;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+
   > input {
     border: 1px solid #c6c6c6;
     border-right: none;
     padding: 12px 8px;
     height: 100%;
+
+    @media screen and (max-width: 520px) {
+      display: none;
+    }
   }
 
   > span {
@@ -37,10 +58,20 @@ export const SearchContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 520px) {
+      border: none;
+    }
   }
 `;
 
-export const Logo = styled.div``;
+export const Logo = styled.div`
+  @media screen and (max-width: 520px) {
+    > img {
+      max-width: 100%;
+    }
+  }
+`;
 
 export const UserControls = styled.div`
   display: flex;

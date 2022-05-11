@@ -7,6 +7,19 @@ export const Container = styled.div`
     min-height: 100%;
   }
 
+  @media screen and (max-width: 520px) {
+    .slider-frame img {
+      max-width: 200%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .slider-control-centerright,
+    .slider-control-centerleft {
+      display: none;
+    }
+  }
+
   .slider-control-centerright {
     right: 18% !important;
   }

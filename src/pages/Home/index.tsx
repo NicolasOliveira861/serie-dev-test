@@ -7,6 +7,14 @@ import { useState } from "react";
 import productJson from "lib/products.json";
 import { CategoryMosaic } from "components/category-mosaic";
 import { Newsletter } from "components/newsletter";
+import { Footer } from "components/footer";
+import { Credits } from "components/credits";
+import styled from "styled-components";
+
+const Container = styled.div`
+  height: 420vh;
+  min-height: 100vh;
+`;
 
 const Home = () => {
   const [floatActive, setFloatActive] = useState(false);
@@ -20,7 +28,7 @@ const Home = () => {
   });
 
   return (
-    <div style={{ height: "200vh" }}>
+    <Container>
       <Header />
 
       <Carousel />
@@ -35,8 +43,11 @@ const Home = () => {
 
       <Newsletter />
 
+      <Footer />
+      <Credits />
+
       {floatActive ? <FloatingIcons /> : <></>}
-    </div>
+    </Container>
   );
 };
 

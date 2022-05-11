@@ -7,6 +7,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -14,5 +18,24 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  row-gap: 18px;
   column-gap: 18px;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    row-gap: 18px;
+    margin: 20px;
+
+    a {
+      width: 100%;
+
+      img {
+        display: block;
+        min-width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
 `;

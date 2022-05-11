@@ -8,6 +8,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1.25rem 0 3.625rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 3.625rem 0;
+  }
 `;
 
 export const FormArea = styled.div`
@@ -15,6 +19,11 @@ export const FormArea = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    max-width: 80%;
+    justify-content: center;
+  }
 `;
 
 export const Title = styled.h1`
@@ -29,6 +38,10 @@ export const Subtitle = styled.p`
   color: #ffffff;
   font-weight: 300;
   margin-bottom: 4.375rem;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const FormContainer = styled.form`
@@ -44,7 +57,7 @@ export const FormContainer = styled.form`
     }
 
     ::placeholder {
-      color: #ffffff;
+      color: #ffffff90;
     }
   }
 
@@ -53,5 +66,14 @@ export const FormContainer = styled.form`
     color: #ffffff;
     text-transform: uppercase;
     background: #ffa200;
+  }
+
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+    row-gap: 1rem;
+
+    > input[name="name"] {
+      width: unset;
+    }
   }
 `;

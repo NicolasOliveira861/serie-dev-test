@@ -14,4 +14,14 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   column-gap: 18px;
+  width: 100%;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+
+    img {
+      max-width: 100%;
+    }
+  }
 `;

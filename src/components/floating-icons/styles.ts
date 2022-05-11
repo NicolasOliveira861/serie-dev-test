@@ -8,9 +8,18 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  row-gap: 11px;
 `;
 
-export const BackToTop = styled.button``;
+export const BackToTop = styled.button`
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7f7f7f;
+`;
 
 export const WhatsappBtn = styled.button`
   background: #4dc247;

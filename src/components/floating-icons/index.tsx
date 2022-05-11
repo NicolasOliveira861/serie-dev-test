@@ -1,4 +1,4 @@
-import { FaArrowCircleUp, FaWhatsapp } from "react-icons/fa";
+import { FaArrowUp, FaWhatsapp } from "react-icons/fa";
 import { BackToTop, Container, WhatsappBtn } from "./styles";
 
 const FloatingIcons = () => {
@@ -11,7 +11,7 @@ const FloatingIcons = () => {
           document.documentElement.scrollTop = 0;
         }}
       >
-        <FaArrowCircleUp size={36} fill="#7F7F7F" path="#ffffff" />
+        <FaArrowUp size={24} fill="#ffffff" />
       </BackToTop>
 
       <WhatsappBtn type="button">
